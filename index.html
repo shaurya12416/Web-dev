@@ -6,33 +6,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Harry Fitness</title>
+    <link rel="stylesheet" href="assets/css/navbar.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Bhai&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="assets/js/script.js" defer></script>
 </head>
-<link href="https://fonts.googleapis.com/css?family=Baloo+Bhai&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="styles.css">
 
 <body>
     <header class="header">
-        <!-- Left box for logo -->
-        <div class="left">
-            <img src="" alt="">
-            <div class="data">Harry Fitness</div>
+        <div class="header__logo">
+            <img src="https://images.pexels.com/photos/4498155/pexels-photo-4498155.jpeg?auto=compress&cs=tinysrgb&w=600"
+                alt="">
+            <h3>Harry Fitness</h3>
         </div>
-        <!-- Mid box for navbar -->
-        <div class="mid">
-            <ul class="navbar">
-                <li><a href="#" class="active">Home</a></li>
+
+        <div class="header__nav">
+            <ul>
+                <li><a href="#">Call us now</a></li>
+                <li><a href="#">Email us</a></li>
+            </ul>
+        </div>
+
+        <div class="header__dropdown">
+            <i class='bx bx-menu' onclick="toggleMenu()"></i>
+            <ul class="dropdown__menu disabled">
+                <li><a href="#" class="link-active">Home</a></li>
                 <li><a href="#">About Us</a></li>
                 <li><a href="#">Fitness Calculator</a></li>
                 <li><a href="#">Contact Us</a></li>
             </ul>
         </div>
-
-        <!-- Right box for buttons -->
-        <div class="right">
-            <button class="btn">Call Us Now</button>
-            <button class="btn">Email Us</button>
-        </div>
     </header>
+
     <div class="container">
         <h1>Join the best gym of Delhi now</h1>
         <form action="noaction.php">
@@ -54,8 +60,12 @@
             <div class="form-group">
                 <input type="text" name="" placeholder="Enter your Phone Number">
             </div>
-            <button class="btn">Submit</button>
+            <button class="button">Submit</button>
         </form>
     </div>
+
+
+
 </body>
+
 </html>
