@@ -1,0 +1,59 @@
+body {
+    margin: var(--header-height) 0 0 0;
+    font-family: 'Baloo Bhai', cursive;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    background: url('');
+}
+
+.button {
+    font-family: 'Baloo Bhai', cursive;
+    margin: 0px 9px;
+    background-color: black;
+    color: white;
+    /* padding: 4px 14px; */
+    padding: 0.4em 0.3em;
+    border: 1px solid grey;
+    padding-inline: 0.3em;
+    border-radius: 0.4em;
+    /* font-size: 20px; */
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: rgb(31, 30, 30);
+}
+
+.container {
+    position: absolute;
+    left: 220px;
+    border: 2px solid black;
+    margin: 80px 80px;
+    padding: 75px;
+    width: 37%;
+    border-radius: 28px;
+}
+
+.form-group input {
+    font-family: 'Baloo Bhai', cursive;
+    text-align: center;
+    display: block;
+    width: 508px;
+    padding: 1px;
+    border: 2px solid black;
+    margin: 11px auto;
+    font-size: 25px;
+    border-radius: 8px;
+}
+
+.container h1 {
+    text-align: center;
+    color: black;
+}
+
+.container button {
+    display: block;
+    width: 74%;
+    margin: 20px auto;
+}
