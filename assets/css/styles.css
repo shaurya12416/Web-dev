@@ -27,9 +27,9 @@ body {
 
 .container {
     position: absolute;
-    left: 220px;
+    left: 25%;
     border: 2px solid black;
-    margin: 80px 80px;
+    /* margin: 80px 80px; */
     padding: 75px;
     width: 37%;
     border-radius: 28px;
@@ -54,6 +54,6 @@ body {
 
 .container button {
     display: block;
-    width: 74%;
+    width: 50%;
     margin: 20px auto;
 }
