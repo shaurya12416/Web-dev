@@ -4,56 +4,99 @@ body {
     color: white;
     margin: 0px;
     padding: 0px;
-    background: url('');
+    background: url('https://images.pexels.com/photos/841130/pexels-photo-841130.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
 }
 
-.button {
-    font-family: 'Baloo Bhai', cursive;
-    margin: 0px 9px;
-    background-color: black;
+body::-webkit-scrollbar {
+    display: none;
+}
+
+.btn {
+    padding: .5em;
+    border-radius: 3px;
+    color: #000000;
+    background-color: #fbdedb;
+    display: inline-block;
+    background: #e74c3c;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+    font-family: sans-serif;
+    font-weight: 800;
+    font-size: .85em;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
+    -webkit-box-shadow: 0em -0.3rem 0em rgba(0, 0, 0, 0.1) inset;
+    -moz-box-shadow: 0em -0.3rem 0em rgba(0, 0, 0, 0.1) inset;
+    box-shadow: 0em -0.3rem 0em rgba(0, 0, 0, 0.1) inset;
+    position: relative;
+}
+
+.btn:hover {
+
+    background-color: #5bbd72;
+    filter: brightness(120%);
     color: white;
-    /* padding: 4px 14px; */
-    padding: 0.4em 0.3em;
-    border: 1px solid grey;
-    padding-inline: 0.3em;
-    border-radius: 0.4em;
-    /* font-size: 20px; */
-    cursor: pointer;
 }
 
-.button:hover {
-    background-color: rgb(31, 30, 30);
+.btn:active {
+    -webkit-transform: scale(0.80);
+    -moz-transform: scale(0.80);
+    -ms-transform: scale(0.80);
+    -o-transform: scale(0.80);
+    transform: scale(0.80);
+}
+
+.yellow {
+    background-color: #ecc92b;
+}
+
+.btn.rounded,
+.form-group input {
+    border-radius: 50em !important;
 }
 
 .container {
     position: absolute;
-    left: 220px;
-    border: 2px solid black;
-    margin: 80px 80px;
-    padding: 75px;
-    width: 37%;
+    left: 28%;
+    margin: 5em;
+    padding: 3em;
     border-radius: 28px;
+    background: rgba(255, 255, 255, 0);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(9.5px);
+    -webkit-backdrop-filter: blur(9.5px);
+    border: 1px solid rgba(255, 255, 255, 0.41);
 }
 
 .form-group input {
     font-family: 'Baloo Bhai', cursive;
     text-align: center;
     display: block;
-    width: 508px;
-    padding: 1px;
+    width: auto;
+    padding: .1em;
     border: 2px solid black;
-    margin: 11px auto;
+    margin: .5em auto;
     font-size: 25px;
-    border-radius: 8px;
 }
 
 .container h1 {
     text-align: center;
-    color: black;
+    color: white;
 }
 
-.container button {
-    display: block;
-    width: 74%;
-    margin: 20px auto;
+#submit {
+    position: relative;
+    left: 11%;
+    padding: .5em 6.9em;
+    margin: .5em;
+    font-weight: 800;
+    font-size: large;
+
 }
